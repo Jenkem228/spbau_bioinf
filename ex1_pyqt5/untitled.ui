@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>411</width>
+    <height>291</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>411</width>
+    <height>291</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Youtube Downloader</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background-color: #3D3D3D;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>371</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 2px solid #A4004D;
+background-color: #404040;
+color: white;
+}
+
+QPushButton:hover{
+border: 2px solid #A4004D;
+background-color: #444444;
+color: white;
+}
+
+QPushButton:pressed{
+border: 2px solid white;
+background-color: #444444;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Выбрать папку для сохранения</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>371</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 2px solid #A4004D;
+background-color: #404040;
+color: white;
+}
+
+QPushButton:hover{
+border: 2px solid #A4004D;
+background-color: #444444;
+color: white;
+}
+
+QPushButton:pressed{
+border: 2px solid white;
+background-color: #444444;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Скачать видео</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>371</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border: 2px solid #A4004D;
+background-color: #404040;
+color: white;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>https://www.youtube.com/VideoID</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>371</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPlainTextEdit{
+border: 2px solid #A4004D;
+background-color: #404040;
+color: white;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Процесс выполнения..</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
